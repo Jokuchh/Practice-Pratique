@@ -6,3 +6,4 @@ Various task for various people
 
 ## Link Calculator : https://jokuchh.github.io/Calculator-JS/
 ## Link CountDown : https://jokuchh.github.io/CountDown/
+## Link CountDown : https://jokuchh.github.io/QR-Generator/
