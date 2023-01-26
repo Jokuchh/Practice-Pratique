@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Jokuchh - Work Timer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="timer-container">
+  <audio>
+    <source src="https://dylanmacnab.github.io/focus-timer/sounds/timer-bell.mp3"></source>
+    <source src="https://dylanmacnab.github.io/focus-timer/sounds/timer-bell.ogg"></source>
+  </audio>
+
+  <input id="minutes" class="timer-input" type="text" name="minutes" placeholder="How many minutes?" autocomplete="off"></input>
+  <div class="timer-controls">
+    <input id="stop" class="timer-button" type="button" value="Pause ⏸"></input>
+    <input id="start" class="timer-button timer-start" type="button" value="Start Timer ▶"></input>
+    <input id="reset" class="timer-button" type="button" value="Reset 🔁"></input>
+  </div>
+  <h1 id="time-display" class="timer-display">00:00</h1>
+</div>
+
+<div class="state-floor"></div>
+<img id="background-setting" class="state-setting" src="https://dylanmacnab.github.io/focus-timer/img/desk-tea.svg">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
