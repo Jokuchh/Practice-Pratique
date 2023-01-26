@@ -10,3 +10,4 @@ Various task for various people
 ## Link Clock : https://jokuchh.github.io/Clock/
 ## Link WorkTimer : https://jokuchh.github.io/WorkTimer/
 ## Link LetITSnow : https://jokuchh.github.io/LetItSnow/
+## Link Record-Player : https://jokuchh.github.io/Record-Player/
